@@ -187,6 +187,13 @@ const Portfolio = () => {
   const renderAbout = () => (
     <div className="w-screen py-12 bg-white">
       <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">About Me</h2>
+        <div className="flex items-center justify-center">
+          <img
+            src="me.jpg"
+            alt="me"
+            className="w-30 h-40 rounded-full mx-auto mb-4" 
+          />
+        </div>      
       <div className="flex flex-col space-y-12 px-8">
         <div className="w-full">
           <h3 className="text-xl font-semibold mb-4 text-gray-700">Background</h3>
