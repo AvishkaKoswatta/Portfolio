@@ -190,7 +190,7 @@ const Portfolio = () => {
         <div className="flex items-center justify-center">
           <img
             src="me.jpg"
-            alt="me"
+            alt="avishka koswaththa"
             className="w-30 h-40 rounded-full mx-auto mb-4" 
           />
         </div>      
