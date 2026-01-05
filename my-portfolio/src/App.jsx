@@ -132,7 +132,7 @@ const Portfolio = () => {
         </div>
         <h1 className="text-4xl font-bold text-gray-800 mb-4">AVISHKA KOSWATHTHA</h1>
         <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-8">
-          Hi! .. I am a Computer Engineering undergraduate currently seeking Data Engineering roles. 
+          Hi! .. I am a Computer Engineering undergraduate currently seeking AI/ML or Data Engineering roles. 
           I build scalable data pipelines and data-driven solutions.
         </p>
       </div>
@@ -199,7 +199,7 @@ const Portfolio = () => {
           <h3 className="text-xl font-semibold mb-4 text-gray-700">Background</h3>
           <div className="border-l-4 border-blue-500 pl-4"> 
           <p className="text-gray-700 mb-4">
-            I am pursuing my BScEng (Hons) in Computer Engineering with a focus on Data Engineering. 
+            I am pursuing my BScEng (Hons) in Computer Engineering with a focus on AI/ML and Data Engineering. 
             Through coursework, projects, and internships, I have built strong skills in data processing, 
             pipeline development, and analytics.
           </p>
@@ -208,7 +208,7 @@ const Portfolio = () => {
           <div className="border-l-4 border-blue-500 pl-4">
             <h4 className="font-semibold text-gray-600">BScEng (Hons) in Computer Engineering</h4>
             <p className="text-gray-600">University of Ruhuna | Expected 2025</p>
-            <p className="text-gray-600">Focus: Data Engineering & Analytics</p>
+            <p className="text-gray-600">Focus: AI/ML, Data Engineering & Analytics</p>
           </div>
           <h3 className="text-xl font-semibold mb-4 mt-6 text-gray-700">Experience</h3>
           <div className="border-l-4 border-blue-500 pl-4">
@@ -232,7 +232,7 @@ const Portfolio = () => {
     <div className="w-full px-4 py-12">
       <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Projects</h2>
       <p className="text-gray-600 mb-8 text-center">
-        Here are some of my key projects demonstrating my data engineering skills and experience.
+        Here are some of my key projects demonstrating my AI, ML and data engineering skills and experience.
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6 w-full">
         {projects.map((project, index) => (
@@ -246,7 +246,7 @@ const Portfolio = () => {
     <div className="w-screen py-12 bg-white">
       <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Contact Me</h2>
       <p className="text-gray-600 mb-8 text-center px-4">
-        I'm always interested in discussing data engineering opportunities or collaborations.
+        I'm always interested in discussing opportunities or collaborations.
       </p>
       <div className="flex flex-wrap justify-center gap-4 mb-8 px-8">
         <div className="flex items-center space-x-3">
@@ -283,14 +283,14 @@ const Portfolio = () => {
           <span>Download CV</span>
         </button>
          */}
-         <a
+         {/* <a
     href="/Avishka_Koswaththa_Resume_Data_Eng.pdf"
     download
     className="flex items-center space-x-2 bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition-colors"
   >
     <Download size={20} />
     <span>Download CV</span>
-  </a>
+  </a> */}
       </div>
     </div>
   );
